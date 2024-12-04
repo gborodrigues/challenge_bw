@@ -25,7 +25,7 @@ def find_earliest(transaction, hashed_transactions, indexes_used):
     _, *key = transaction
     key = tuple(key)
     if key not in hashed_transactions:
-        return False
+        return None
     candidate = hashed_transactions[key]
     match = None
     for i, (candidate_date, candidate) in enumerate(candidate):
