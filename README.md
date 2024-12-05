@@ -25,7 +25,7 @@ Esse projeto contém 3 pastas no qual cada uma contém um código em Python e te
 
 1. Rode
 ```bash
-reconcile_accounts/main.py 
+python reconcile_accounts/main.py 
 ```
 
 2. Saída esperada:
@@ -44,7 +44,7 @@ Essa saída é esperada com base no arquivos **.csv** que estão na pasta, caso 
 
 1. Nesse script é possível passar opcionalmente **--file** e -**-buffer_size**, que respectivamente significa qual arquivo quer ser processado e o tamanho do buffer.
     ```bash
-    last_lines/main.py --file=my_file.txt --buffer_size=1
+    python last_lines/main.py --file=my_file.txt --buffer_size=1
     ```
 
 2. Exemplo da saída para o arquivo **my_file.txt** esperada:
