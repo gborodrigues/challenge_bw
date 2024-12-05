@@ -42,7 +42,7 @@ Essa saída é esperada com base no arquivos **.csv** que estão na pasta, caso 
 
 ### last_lines
 
-1. Nesse script é possível passar opcionalmente **--file** e -**-buffer_size**, que respectivamente significa qual arquivo quer ser processado e o tamanho do buffer.
+1. Nesse script é possível passar opcionalmente `--file` e `--buffer_size`, que respectivamente significa qual arquivo quer ser processado e o tamanho do buffer.
 ```bash
 python last_lines/main.py --file=my_file.txt --buffer_size=1
 ```
