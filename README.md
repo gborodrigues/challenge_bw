@@ -69,21 +69,20 @@ python computed_property/circle_docstring.py
 
 1. Certifique-se de que todas as dependências estão instaladas.
 2. Execute os testes com `pytest`:
-   ```bash
-   pytest
-   ```
+```bash
+pytest
+```
 
 Exemplo de saída esperada:
 
 ```
-========================================================================== test session starts ==========================================================================
+=========== test session starts ===========
 platform linux -- Python 3.9.20, pytest-8.3.4, pluggy-1.5.0
 rootdir: /home/user/projects/challenge_bw
 collected 10 items                                                                                                                                                      
 
-computed_property/computed_property_test.py ...                                                                        [ 30%]
-last_lines/last_lines_test.py ....                                                                                     [ 70%]
-reconcile_accounts/reconcile_accounts_test.py ...                                                                      [100%]
+computed_property/computed_property_test.py ...          [ 30%]
+last_lines/last_lines_test.py ....                       [ 70%]
+reconcile_accounts/reconcile_accounts_test.py ...        [100%]
 
-========================================================================== 10 passed in 0.01s ===========================================================================
-```
+=========== 10 passed in 0.01s ============
