@@ -1,7 +1,7 @@
 import unittest
 import tempfile
 import os
-from main import last_lines
+from last_lines.main import last_lines
 
 
 class TestLastLines(unittest.TestCase):

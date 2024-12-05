@@ -1,5 +1,5 @@
 import unittest
-from main import reconcile_accounts
+from reconcile_accounts.main import reconcile_accounts
 
 
 class TestReconcileAccounts(unittest.TestCase):
