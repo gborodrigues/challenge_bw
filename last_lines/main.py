@@ -44,7 +44,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     file_path = os.path.join(dir, args.file)
-    lines = last_lines(args.file, args.buffer_size)
+    lines = last_lines(file_path, args.buffer_size)
 
     for line in lines:
         print(repr(line))
