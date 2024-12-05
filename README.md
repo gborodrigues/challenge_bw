@@ -21,7 +21,7 @@ Esse projeto contém 3 pastas no qual cada uma contém um código em Python e te
 
 ## Rodando os scripts
 
-#### reconcile_accounts
+### reconcile_accounts
 
 1. Rode
 ```bash
@@ -40,7 +40,7 @@ reconcile_accounts/main.py
 
 Essa saída é esperada com base no arquivos **.csv** que estão na pasta, caso queira testar com outro arquivo recomendo sobrescrever com o mesmo nome que estão dentro da pasta.
 
-#### last_lines
+### last_lines
 
 1. Nesse script é possível passar opcionalmente **--file** e -**-buffer_size**, que respectivamente significa qual arquivo quer ser processado e o tamanho do buffer.
     ```bash
@@ -54,7 +54,7 @@ Essa saída é esperada com base no arquivos **.csv** que estão na pasta, caso 
 'This is a file\n'
 ```
 
-#### computed_property
+### computed_property
 
 1. Foram criados 3 arquivos que fazem o uso da propriedade com base no que foi solicitado
     ```bash
